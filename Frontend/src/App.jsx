@@ -6,7 +6,7 @@ import User_profile from "../components/User_profile.jsx";
 import Square from "../components/square.jsx";
 import Header from "../components/Header";
 
-const socket = io("http://localhost:3001"); // Connect to the server
+const socket = io("https://tic-tac-toe-oqjp.onrender.com"); // Connect to the server
 
 const App = () => {
   const [board, setBoard] = useState(Array(9).fill(null));
